@@ -13,3 +13,11 @@ python3 -m venv .venv
 source .venv/bin/activate
 python3 -m pip install -r requirements.txt
 ```
+
+## Running locally
+
+To run the streamlit app locally just run:
+
+```console
+streamlit run app.py
+```
