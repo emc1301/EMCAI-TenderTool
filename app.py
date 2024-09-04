@@ -11,9 +11,6 @@ if upload:
     # Read the uploaded CSV file into a DataFrame
     df = pd.read_csv(upload)
     
-    # Assuming the DataFrame has columns 'count', 'unit_cost', and 'total_cost'
-    # Modify these column names based on your actual DataFrame structure
-    df['total'] = df['total'].astype('float')
     # Calculate the expected total cost
     df['calculated total'] = df['count'] * df['cost']
 
